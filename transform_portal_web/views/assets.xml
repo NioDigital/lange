@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_common_1" name="web_enterprise assets common tranform" inherit_id="web.assets_common">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/transform_portal_web/static/src/scss/ui.scss"/>
+        </xpath>
+    </template>
+
+</odoo>
